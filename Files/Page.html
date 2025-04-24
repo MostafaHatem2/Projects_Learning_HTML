@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive HTML Guide</title>
+    <meta name="description" content="THis is Project Learning HTML">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Mostafa Hatem">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+    <main>
+    <article>
+        <div>
+            <h1>Interactive HTML Guide</h1>
+            <p class="author">By Mostafa Hatem</p>
+            <p class="date">2025-04-24</p>
+            <p class="description">This is a project to learn HTML</p>
+
+            <section>
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#basic-syntax">Basic Syntax</a></li>
+                    <li><a href="#Veiw">Veiw</a></li>
+                </ul>
+            </section>
+            <div id="2">
+            <section id="introduction">
+                <h2>Introduction</h2>
+                <p>This Introducation for my project to learn HTML</p>
+                <form action="mostafa.py" method="get" target="_blank" >
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name"
+                     required autofocus minlength="3" maxlength="20">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password"
+                     required minlength="8" maxlength="20">
+                    <br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </section>
+            </div>
+            <div id="3">
+                <section id="basic-syntax">
+                    <h2>Basic Syntax</h2>
+                    <p>This is basic syntax for HTML</p>
+                    <div>
+                        <table border="1" bgcolor="#c8c7c7">
+                            <thead>
+                                <tr>
+                                    <th>HTML Tag</th>
+                                    <th>Description</th>
+                                    <th>Example Usage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>&lt;!DOCTYPE html&gt;</td>
+                                    <td>Declares the document type and HTML version (HTML5).</td>
+                                    <td>&lt;!DOCTYPE html&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;html&gt;</td>
+                                    <td>Root element of an HTML page.</td>
+                                    <td>&lt;html&gt; ... &lt;/html&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;head&gt;</td>
+                                    <td>Contains meta-information about the document (title, styles, scripts).</td>
+                                    <td>&lt;head&gt; ... &lt;/head&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;title&gt;</td>
+                                    <td>Sets the title of the webpage (shown in the browser tab).</td>
+                                    <td>&lt;title&gt;Document Title&lt;/title&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;body&gt;</td>
+                                    <td>Contains the visible content of the webpage.</td>
+                                    <td>&lt;body&gt; ... &lt;/body&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                                    <td>Defines different levels of headings.</td>
+                                    <td>&lt;h1&gt;Heading 1&lt;/h1&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;p&gt;</td>
+                                    <td>Defines a paragraph of text.</td>
+                                    <td>&lt;p&gt;This is a paragraph.&lt;/p&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;a&gt;</td>
+                                    <td>Defines a hyperlink.</td>
+                                    <td>&lt;a href="https://www.example.com"&gt;Link Text&lt;/a&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;img&gt;</td>
+                                    <td>Defines an image.</td>
+                                    <td>&lt;img src="image.jpg" alt="Description"&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;table&gt;</td>
+                                    <td>Defines a table.</td>
+                                    <td>&lt;table&gt; ... &lt;/table&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;tr&gt;</td>
+                                    <td>Defines a table row.</td>
+                                    <td>&lt;tr&gt; ... &lt;/tr&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;th&gt;</td>
+                                    <td>Defines a table header cell.</td>
+                                    <td>&lt;th&gt;Header Text&lt;/th&gt;</td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;td&gt;</td>
+                                    <td>Defines a table data cell.</td>
+                                    <td>&lt;td&gt;Data Text&lt;/td&gt;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>Example of a Basic HTML Structure:</p>
+                    <div id="3.2"><pre><code>
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html lang="en"&gt;
+                        &lt;head&gt;
+                            &lt;meta charset="UTF-8"&gt;
+                            &lt;title&gt;Interactive HTML Guide&lt;/title&gt;
+                            &lt;meta name="description" content="THis is Project Learning HTML"&gt;
+                            &lt;meta name="keywords" content="HTML"&gt;
+                            &lt;meta name="author" content="Mostafa Hatem"&gt;
+                            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;h1&gt;Welcome to the Interactive HTML Guide&lt;/h1&gt;
+                            &lt;p&gt;This is a basic HTML structure example.&lt;/p&gt;
+                            &lt;a href="https://www.example.com"&gt;Example Link&lt;/a&gt;
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </code></pre></div>
+                </section>
+            </div>
+            <div id="4">
+                <section id="Veiw">
+                    <h2>Veiw</h2>
+                    <title for="iframe">Here we final use some tags to finsh this web</title>
+                    <iframe id="iframe" src="https://elzero.org/html-iframe-pre-code/" width="800" height="300"></iframe>
+                </section>
+            </div>
+        </div>
+    </article>
+    </main>
+    <aside>
+        <h3>Next Taps</h3>
+        <nav>
+            <a id="Page2" href="Page2.html#5" target="_blank"><button id="Page2">Next</button></a>
+
+        </nav>
+    </aside>
+</body>
+</html>
